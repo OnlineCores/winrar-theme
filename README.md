@@ -4,14 +4,14 @@ A simple theme for win-rar
 
 # How yo create winrar theme file
 ## 1. INTRODUCTION
-Theme file is RAR archive containing an alternative set of graphics and winrar_theme_description.txt file.
+Theme file is RAR archive containing an alternative set of graphics and _winrar_theme_description.txt_ file.
 
 ## 2. NAME FORMAT
-Theme file must have __theme.rar__ extension, so its name format is:  
-_basename.anytext.theme.rar_
+Theme file must have **theme.rar** extension, so its name format is:  
+_basename.anytext.**theme.rar**_
 
-+ WinRAR creates a folder for theme graphics using 'basename' name part, so you need to select something sensible and unique as basename to avoid overwriting already installed themes.
-+ 'anytext' part is optional and ignored by WinRAR. You may use it, for example, to include the version information.
++ WinRAR creates a folder for theme graphics using '__basename__' name part, so you need to select something sensible and unique as basename to avoid overwriting already installed themes.
++ '__anytext__' part is optional and ignored by WinRAR. You may use it, for example, to include the version information.
 
 Here are a couple of possible theme file names:
 + Snow.ver21.theme.rar - it will be installed to 'Themes\Snow' folder 
